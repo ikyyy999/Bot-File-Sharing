@@ -7,7 +7,7 @@ import sendMediaFunction from "./utils/sendMediaFunction";
 const bot = new Bot(botToken);
 
 bot.command("start", async (ctx) => {
-  const userIdToForceSubscribe = 123456789; // Ganti dengan ID pengguna yang diinginkan
+  const userIdToForceSubscribe = 123456789; // Ganti dengan ID pengguna yang diinginkann
 
   if (ctx.from && ctx.from.id === userIdToForceSubscribe) {
     // Pengguna yang diinginkan
